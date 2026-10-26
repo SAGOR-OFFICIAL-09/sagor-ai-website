@@ -110,6 +110,7 @@
     background: linear-gradient(135deg, #38bdf8, #a855f7); box-shadow: 0 0 20px rgba(168,85,247,0.5);
   }
   #send:disabled { opacity: 0.5; }
+  #send svg { width: 20px; height: 20px; }
   footer { text-align: center; font-size: 12px; color: #64748b; padding: 8px 0 14px; }
   @media (max-width: 600px) {
     header { padding: 12px 14px; gap: 10px; }
@@ -169,7 +170,7 @@
 
 <form id="form"><div id="form-inner">
   <input id="input" type="text" placeholder="মেসেজ লিখো..." autocomplete="off">
-  <button id="send" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+  <button id="send" type="submit"><i data-lucide="send"></i></button>
 </div></form>
 <footer><i data-lucide="sparkles"></i> SAGOR AI — Free icons: Lucide, Font Awesome, Material Icons</footer>
 
